@@ -15,7 +15,12 @@
 # print(avg) 
 
 
-a = float(input("Enter Numer:"))
-b = float(input("Enter Numer:"))
-print (a >= b)
+# a = float(input("Enter Numer:"))
+# b = float(input("Enter Numer:"))
+# print (a >= b)
+
+
+name = input('Enter Your First Name:')
+print("Length of your name is:",len(name))
+
 

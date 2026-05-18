@@ -8,14 +8,19 @@ print (mark[1])
 student = ["parthiv",9510605099,"vasadva"]
 print (student)
 
-student[0] = "dhruv"   #we can change list data valu.    #not allow in string
+# name = "manav"
+# print (name[0])           # We can not chages in string.
+# name[0] = "k"             # so string is immutable
+# name.append("patel")
+# print(student)
+
+
+
+student[0] = "dhruv"           #we can change list
+student.append("gujrat")       # so list is  mutable
 print (student)
 
-student.append("gujrat")
-
-print (student)
 
 mark.sort()
-
 print (mark)
 

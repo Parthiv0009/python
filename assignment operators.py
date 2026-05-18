@@ -19,10 +19,12 @@ a =  10
 a %= 10
 print(a)
 
-a =  10
-a **= 10
+a =  8
+a **= 3   #Exponent
 print(a)
 
-a = 2
-a = str(a)
-print (type(a))    
+a =  10
+a //= 3   #Floor Division   #no decimal
+print(a)
+
+       
